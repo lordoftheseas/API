@@ -1,5 +1,3 @@
-# https://help.parsehub.com/hc/en-us/articles/217751808-API-Tutorial-How-to-get-run-data-using-Python-Flask
-# https://www.geeksforgeeks.org/get-post-requests-using-python/
 from flask import Flask, jsonify, request
 from flask_restful import Resource, Api
 from requests import get
