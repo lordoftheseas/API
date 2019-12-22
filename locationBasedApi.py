@@ -73,4 +73,5 @@ class locationData(Resource):
 # api.add_resource(Hello,'/')
 api.add_resource(locationData,'/locationService/<float:lat>/<float:lo>')
 
-api.init_app(app)
+if __name__=='__main__':
+	app.run(debug=True)
